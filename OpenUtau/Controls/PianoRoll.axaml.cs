@@ -1295,7 +1295,7 @@ namespace OpenUtau.App.Controls {
                     break;
                 case Key.F11:
                     OnMenuFullScreen(RootWindow, new RoutedEventArgs());
-                    break;
+                    return true;
                 case Key.Enter:
                     if (isNone) {
                         if (notesVm.Selection.Count == 1) {
